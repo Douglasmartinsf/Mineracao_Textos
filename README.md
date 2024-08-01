@@ -41,7 +41,9 @@ O projeto foi organizado em uma estrutura de pastas para facilitar a navegação
 - **Base/:** Contém o código base utilizado no projeto, além do enunciado
 - **Data/:** Contém os conjuntos de dados utilizados no projeto, como os comentários coletados, os comentários pré-processados, e arquivos de backup.
 - ***Notebooks/:*** Contém os notebooks Jupyter com diferentes processos de vetorização e treinamento.
+
 Além dessas pastas principais, o projeto inclui os seguintes arquivos:
+
 - ***.gitignore:*** Arquivo de configuração para ignorar arquivos e pastas que não devem ser versionados pelo Git.
 - ***README.md:*** Este arquivo, que descreve o projeto e fornece instruções de uso.
 - ***requirements.txt:*** Contém as dependências necessárias para a execução do projeto.
