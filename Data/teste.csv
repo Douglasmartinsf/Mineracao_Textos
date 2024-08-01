@@ -1,0 +1,4 @@
+reviewId,app_name,content,sentiment_polarity,sentiment
+a12345f6-78g9-1011-h121-314151617181,YouTube,"A nova interface do YouTube ficou confusa. As recomendações estão boas, mas os anúncios estão muito invasivos, aparecendo a cada 5 minutos de vídeo.",negative,anger
+b23456g7-89h0-1122-i131-415161718192,Netflix,"O catálogo da Netflix é ótimo, mas a qualidade de streaming às vezes é inconsistente, especialmente em dispositivos móveis. No geral, ainda vale a pena.",positive,happiness
+c34567h8-90i1-1233-j141-516171819203,Spotify,"A experiência no Spotify é incrível, mas a quantidade de propagandas na versão gratuita é exagerada. Gosto muito das recomendações de músicas e das playlists personalizadas.",positive,sadness
