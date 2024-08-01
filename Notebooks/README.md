@@ -27,6 +27,10 @@ Esta pasta contém diversos notebooks do Jupyter que foram utilizados para a an�
 7. **tf-idf_nb.ipynb**:
    - Implementação de um modelo Naive Bayes (NB) utilizando vetores TF-IDF. Este notebook mostra como treinar um classificador Naive Bayes com características extraídas via TF-IDF.
 
+8. **bow_nb.ipynb**:
+   - Implementação de um modelo Naive Bayes (NB) usando uma abordagem Bag-of-Words (BoW). O notebook cobre a transformação do texto em uma matriz BoW e a subsequente classificação.
+
+
 ## Explicação dos Modelos de Vetorização e Treinamento
 
 ### Modelos de Vetorização
