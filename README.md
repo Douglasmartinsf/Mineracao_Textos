@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como parte da disciplina de Ciência de Dados II e
 
 ## Base de Dados
 Foram coletados 300 comentários de usuários para cada um dos aplicativos supracitados, totalizando 3.000 comentários. Cada comentário foi classificado por avaliadores humanos em duas dimensões:
-1. **Polaridade**: Positivo ou Negativo.
+1. **Polaridade**: Positivo, Negativo ou Neutro.
 2. **Emoção**: 
    - Felicidade
    - Surpresa
@@ -36,11 +36,17 @@ Foram coletados 300 comentários de usuários para cada um dos aplicativos supra
 Desenvolver um mecanismo para classificar (prever) a emoção e a polaridade dos comentários dos usuários.
 
 ## Estrutura do Projeto
-O projeto foi estruturado da seguinte forma:
-- **Pré-processamento dos Dados**: Limpeza e transformação dos dados coletados.
-- **Modelagem e Treinamento**: Implementação e treinamento de diversos modelos de classificação de texto.
-- **Avaliação de Desempenho**: Análise da performance dos modelos utilizando métricas como precisão, revocação, medida-F e matriz de confusão.
-- **Classificação de Novos Comentários**: Predição de três novos comentários não presentes no conjunto de treino.
+O projeto foi organizado em uma estrutura de pastas para facilitar a navegação e a manutenção do código.
+
+- **Base/:** Contém o código base utilizado no projeto, além do enunciado
+- **Data/:** Contém os conjuntos de dados utilizados no projeto, como os comentários coletados, os comentários pré-processados, e arquivos de backup.
+- ***Notebooks/:*** Contém os notebooks Jupyter com diferentes processos de vetorização e treinamento.
+
+Além dessas pastas principais, o projeto inclui os seguintes arquivos:
+
+- ***.gitignore:*** Arquivo de configuração para ignorar arquivos e pastas que não devem ser versionados pelo Git.
+- ***README.md:*** Este arquivo, que descreve o projeto e fornece instruções de uso.
+- ***requirements.txt:*** Contém as dependências necessárias para a execução do projeto.
 
 ## Modelos Utilizados
 - BoW + NaiveBayes (Modelo Base)
@@ -70,6 +76,6 @@ O projeto foi estruturado da seguinte forma:
     ```
 5. Execute o Jupyter Notebook:
     ```bash
-    jupyter notebook
+    jupyter notebook Notebooks
     ````
 
